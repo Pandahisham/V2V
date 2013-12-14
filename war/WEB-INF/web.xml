@@ -16,6 +16,10 @@
 
     <!-- Loaded at startup -->
     <listener>
+        <listener-class>elresolver.EscapeXmlELResolverListener</listener-class>
+    </listener>
+
+    <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
 
